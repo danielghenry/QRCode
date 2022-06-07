@@ -1,0 +1,60 @@
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #D0C9C0;
+  height: 100vh;
+  width: 100%;
+}
+
+.qr-code {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 100%);
+  max-width: 300px;
+  max-height: 700px;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.qr-code img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 1rem;
+}
+
+.content-text {
+  padding: 0 0.8rem;
+}
+
+.important-text {
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+  font-size: 1.5rem;
+}
+
+.details-text {
+  margin-top: 0;
+  color: hsl(220, 15%, 55%);
+}
